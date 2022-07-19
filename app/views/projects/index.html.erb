@@ -1,0 +1,6 @@
+<h1> Listing all the Projects <h1>
+
+<% Project.all.each do |project| %>
+    <h4> <%= @project.name %></h4>
+    <h4> <%= @project.description %></h4>
+<% end %>
